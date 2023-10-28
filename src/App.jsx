@@ -1,10 +1,21 @@
+import Navbar from "./Components/CommonComponents/Navbar";
+import HomePage from "./Pages/HomePage";
+import NotFound404 from "./Pages/NotFound404";
+import RoadMap from "./Pages/RoadMap";
 import BackgroundTheme from "./Utilities/BackgroundTheme";
-import Navbar from "./Components/CommonComponents/Navbar"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Navbar/>
       <BackgroundTheme />
+      <Navbar />
+      <Router>
+        <Routes>
+          <Route path="/" exact element={<HomePage />} />
+          <Route path="/roadmap" element={<RoadMap />} />
+          <Route path="/*" element={<NotFound404 />} />
+        </Routes>
+      </Router>
     </>
   );
 }
