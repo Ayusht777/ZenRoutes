@@ -1,6 +1,5 @@
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-npm install react-scroll
 npm install react-router-dom
 
 https://www.realtimecolors.com/?colors=ffffff-070708-4a4c42-222126-fbf818&fonts=Source%20Sans%203-Source%20Sans%203
