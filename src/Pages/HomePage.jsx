@@ -1,7 +1,20 @@
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
-  return <div className=" max-w-[1200px] ">
-    
-  </div>;
+  return (
+    <div className=" max-w-[1200px] mx-auto">
+      <div className="text-7xl text-center w-full h-screen flex flex-col gap-12 items-center justify-center text-text">
+        <h1 className="">Roadmaps for Students</h1>
+        <h1
+          className="text-center font-extrabold tracking-tight from-[#fbf818]  to-[#4a4c42] bg-gradient-to-r bg-clip-text"
+          style={{ color: "transparent" }}
+        >
+          ZenRoutes
+        </h1>
+        <Link to="/roadmap">Link</Link>
+      </div>
+    </div>
+  );
 };
 
 export default HomePage;
