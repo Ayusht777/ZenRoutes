@@ -10,7 +10,7 @@ function HeroSection() {
         ZenRoutes
       </h1>
       <Link to="/roadmap" className="text-lg">
-        Start your journey 
+        Start your journey
       </Link>
     </div>
   );
