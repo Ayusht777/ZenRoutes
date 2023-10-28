@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function HeroSection() {
   return (
-    <div className="text-7xl text-center w-full h-screen flex flex-col gap-12 items-center justify-center text-text">
+    <div className="text-7xl text-center h-screen w-full  flex flex-col items-center gap-16 justify-center text-text ">
       <h1 className="">Roadmaps for Students</h1>
       <h1
         className="text-center font-extrabold tracking-tight from-[#fbf818]  to-[#4a4c42] bg-gradient-to-r bg-clip-text"
@@ -9,7 +9,9 @@ function HeroSection() {
       >
         ZenRoutes
       </h1>
-      <Link to="/roadmap">Link</Link>
+      <Link to="/roadmap" className="text-lg">
+        Start your journey 
+      </Link>
     </div>
   );
 }
