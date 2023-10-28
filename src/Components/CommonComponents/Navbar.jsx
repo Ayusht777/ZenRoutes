@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-   <nav className=" w-3/5 h-12 bg-text mx-auto my-4 rounded-3xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+   <nav className=" w-3/5 h-12 bg-background mx-auto my-4 rounded-3xl shadow-[rgba(_251,_248,_24,_0.7)_0px_0px_90px] ">
 
    </nav>
   )
