@@ -1,22 +1,22 @@
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+npm install react-scroll
+npm install react-router-dom
 
 https://www.realtimecolors.com/?colors=ffffff-070708-4a4c42-222126-fbf818&fonts=Source%20Sans%203-Source%20Sans%203
 
-
-
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} \*/
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-    colors: {
-      text: "#ffffff",
-      background: "#070708",
-      primary: "#4a4c42",
-      secondary: "#222126",
-      accent: "#fbf818",
-      
+content: ["./index.html", "./src/**/\*.{js,ts,jsx,tsx}"],
+theme: {
+extend: {},
+colors: {
+text: "#ffffff",
+background: "#070708",
+primary: "#4a4c42",
+secondary: "#222126",
+accent: "#fbf818",
+
     },
 
     fontSize: {
@@ -36,10 +36,9 @@ export default {
       normal: "400",
       bold: "700",
     },
-    
-  },
-  plugins: [],
-};
 
+},
+plugins: [],
+};
 
 https://www.canva.com/design/DAFygxEmY7g/xyFPOqABLz44-qphP0Fpjg/edit?utm_content=DAFygxEmY7g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
