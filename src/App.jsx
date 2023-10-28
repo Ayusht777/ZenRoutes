@@ -8,10 +8,11 @@ function App() {
   return (
     <>
       <BackgroundTheme />
-      <Navbar />
+
       <Router>
+        <Navbar />
         <Routes>
-          <Route path="/" exact element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/roadmap" element={<RoadMap />} />
           <Route path="/*" element={<NotFound404 />} />
         </Routes>
