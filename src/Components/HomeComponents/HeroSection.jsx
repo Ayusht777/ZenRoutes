@@ -12,7 +12,7 @@ function HeroSection() {
       </h1>
       <Link
         to="/roadmap"
-        className="text-lg  from-[#fbf818]  to-[#4a4c42] bg-gradient-to-r text-text py-2 md:py-3 px-5 md:px-7 rounded-3xl font-bold flex items-center justify-center gap-4 group"
+        className="text-lg text-secondary from-[#fbf818]  to-[#4a4c42] bg-gradient-to-r  py-2 md:py-3 px-5 md:px-7 rounded-3xl font-extrabold flex items-center justify-center gap-4 group"
       >
         Start journey
         <FaArrowRight className="group-hover:translate-x-3 transition-transform" />
